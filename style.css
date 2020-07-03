@@ -1,5 +1,6 @@
 body{
     font-family: 'Lobster';font-size: 22px;
+    margin:0px;
 }
 h2{
     font-size:50px;
@@ -14,8 +15,25 @@ h2{
 }
 .half-width img{
     width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+   
+}
+section{
+    height:1000px;
+}
+.sec-first{
+    background-image: url(images/header-bg.png);
+    background-repeat:no-repeat;
+}
+.sec-two{
     background-image: url(images/biography-bg.png);
 }
+.sec-three{
+    background-image:url(images/footer-bg.png);
+}
+
 .link{
     text-decoration:none;
     background-image: linear-gradient(45deg, lightsalmon, tomato );
@@ -24,17 +42,39 @@ h2{
     font-weight:700px;
     color:white;
 }
-section{
-    height:500px;
-    padding-bottom:150px;
+
+.three-pic img{
+    width:25%;
+    float:left;
+    margin:20px;
 }
-.middle-area{
-    background-image:url("images/header-bg.png");
-    background-repeat: no-repeat;
-    background-position:right;
+.t{
+    margin-left:100px;
 }
-.last-work{
-    text-align:left;
-     padding:20px;
-     margin-top:10%x;
+.latest-tag{
+    text-align:center;
+    font-size:35px;
+}
+.client-say{
+    text-align:center;
+    margin-top:500px;
+}
+.ceo{
+    text-align:center;
+    margin-top:100px;
+}
+.email{
+    background-color:red;
+    width:400px;
+    height:100px;
+    margin-left:28%;
+    color:white;
+    font-size:18px;
+    box-shadow: violet;
+    background-origin: border-box;
+}
+.footer{
+    font-size:10px;
+    text-align:center;
+    margin-top:100px;
 }
